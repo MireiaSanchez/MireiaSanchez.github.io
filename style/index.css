@@ -1,8 +1,13 @@
-body{
-    background: #536976;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+/* BACKGROUND */
+
+.bg-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
 }
+
+/* HEADER*/
 
 header{
     height: 80px;
@@ -30,35 +35,23 @@ header > nav{
   width: 50%;
 }
 
-.home{
-    color: white;
-    font-size: 40px;
-}
+/* CARDS */
 
-.project{
-    height: 400px;
-    width: 30%;
-    background-color: darkgrey;
-    box-sizing: border-box;
+.project
+{
     text-align: center;
-    margin: 20px;
-    border: solid 1px black;
-    border-radius: 4px;
+    margin: 20px 0px;
     position: relative;
     text-justify: auto;
-
-}
-
-.project > h3 {
     font-family: 'Source Code Pro', monospace;
-    padding-top: 15px;
-
 }
 
-.project >img {
+
+.project >div >img {
+    padding: 10px 5px;
+    height: 160px;
     width: 90%;
-    padding-top: 15px;
-    border-radius: 3px;
+    margin: auto;
 }
 
 .project > i{
@@ -66,24 +59,39 @@ header > nav{
     font-size: 25px;
 }
 
-
 .project > a{
     text-decoration: none;
 }
 
-.description{
-    width: 90%;
-    margin: 15px auto;
-    text-align: center;
+.card{
+    background-color: rgb(32, 32, 32, 0.5);
+}
+
+.card:hover{
+    background-color: rgb(32, 32, 32, 0.9);
+    transition: 200ms;
+}
+
+.card-text{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .plus{
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 10px;
+    bottom: 10px;
     color: white;
+    font-size: 25px;
 }
 
+.plus:hover{
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+/* MAPAS MENTALES */
 
 
 #mapaMentalDiv{
@@ -99,8 +107,15 @@ header > nav{
 }
 
 #mapaMental{
-    width: 80%;
+    width: 75%;
 }
+
 h1{
     margin: auto;
 } 
+
+.arrow{
+    color: white;
+    margin: 30px 55px;
+    font-size: 30px;
+}
