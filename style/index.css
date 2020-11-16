@@ -62,6 +62,7 @@ header > nav{
     padding: 10px 5px;
     height: 160px;
     margin: auto;
+    width: 90%;
 }
 
 .project > i{
@@ -126,4 +127,22 @@ h1{
     color: white;
     margin: 30px 55px;
     font-size: 30px;
+}
+
+/* Dwec Resumen Visual */
+
+#query{
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+}
+
+#fiddle{
+    background-color: rgb(32, 32, 32, 0.7);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border: 1px white solid;
+    margin: 20px auto;
 }
