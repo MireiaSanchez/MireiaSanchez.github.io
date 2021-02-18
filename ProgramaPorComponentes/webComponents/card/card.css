@@ -1,0 +1,25 @@
+
+.card-footer{
+    margin: auto;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    text-align:center;
+    position: relative;
+}
+
+.principal > *{
+    background-color: rgb(149, 177, 229);
+    
+}
+
+.bebida > *{
+    background-color: rgb(177, 250, 226);
+}
+
+.postre > *{
+    background-color: bisque;
+}

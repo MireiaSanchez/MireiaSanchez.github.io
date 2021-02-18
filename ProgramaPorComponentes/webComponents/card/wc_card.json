@@ -1,0 +1,65 @@
+ [{
+            "nombre": "Hamburguesa",
+            "tipo": "principal",
+            "calorias": "600",
+            "ingredientes": ["Pan", "Carne", "Lechuga", "Queso"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/hamburguesa.jfif"
+        },
+        {
+            "nombre": "Ensalada",
+            "tipo": "principal",
+            "calorias": "250",
+            "ingredientes": ["Lechuga", "Queso", "Tomate", "Nueces"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/ensalada.jfif"
+        },
+        {
+            "nombre": "Pizza",
+            "calorias": "650",
+            "tipo": "principal",
+            "ingredientes": ["Masa pizza", "Salami", "Tomate", "Aceitunas"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/pizza.jfif"
+        },
+        {
+            "nombre": "Batido",
+            "calorias": "200",
+            "tipo": "bebida",
+            "ingredientes": ["Plátano", "Manzana", "Fresa"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/batido.jfif"
+        },
+        {
+            "nombre": "Pepsi",
+            "calorias": "200",
+            "tipo": "bebida",
+            "ingredientes": ["Azúcar"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/pepsi.jfif"
+        },
+        {
+            "nombre": "Cerveza",
+            "calorias": "120",
+            "tipo": "bebida",
+            "ingredientes": ["Alcohol"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/cerveza.jfif"
+        },
+        {
+            "nombre": "Tarta",
+            "calorias": "350",
+            "tipo": "postre",
+            "ingredientes": ["Azúcar", "Manana", "Huevos", "Leche"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/tarta.jfif"
+        },
+        {
+            "nombre": "Crepes",
+            "calorias": "200",
+            "tipo": "postre",
+            "ingredientes": ["Azúcar", "Fresas", "Harina", "Leche"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/crepes.jfif"
+        },
+        {
+            "nombre": "Cupcake",
+            "calorias": "350",
+            "tipo": "postre",
+            "ingredientes": ["Azúcar", "Limón", "Huevos", "Harina", "Levadura"],
+            "imagen": "/ProgramaPorComponentes/webComponents/card/card_media/cupcake.jfif"
+        }
+
+    ]
