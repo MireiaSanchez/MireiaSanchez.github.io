@@ -1,0 +1,108 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.allKanjis{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    width: 50%;
+}
+
+#app{
+    text-align: center;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+.container{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: rgb(143, 210, 248);
+    margin: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover{
+    background-color: rgb(66, 186, 255);
+}
+
+.info{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 3% 7%;
+}
+
+.comment{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 5%;
+}
+
+.yellow{
+    background-color: rgb(252, 252, 170);
+}
+
+.yellow  .comment{
+    background-color: white;
+}
+
+.yellow > .info{
+    background-color: rgb(224, 224, 87);
+}
+
+.red{
+    background-color: rgb(255, 152, 152);
+}
+
+.red .comment{
+    background-color: white;
+}
+
+.red > .info{
+    background-color: rgb(207, 116, 116);
+}
+
+.blue{
+    background-color: rgb(66, 186, 255);
+}
+
+.blue > .info {
+    background-color: rgb(30, 152, 223);
+}
+
+.blue  .comment{
+    background-color: white;
+}
+
+.detail{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 40%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.image{
+    height: 100px;
+    margin: 5%;
+}
+
+.form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+
+}
+
+
