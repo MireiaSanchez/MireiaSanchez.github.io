@@ -1,0 +1,25 @@
+
+#myVideo{
+    height: 40vh;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+.progress-range{
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 8px;
+    width: calc(100%- 10px);
+    background-color:  rgb(0, 172, 194);
+}
+
+.progress-bar{
+    background: #e1157b94;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
