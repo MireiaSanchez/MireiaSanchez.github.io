@@ -175,7 +175,7 @@ Vue.component('studyForm', {
 </p>
 
 <div class="form">
-  <label for="comment">Comment any tip to study this kanji:</label>
+  <label for="comment">Leave a comment:</label>
   <textarea id="coment" v-model="comment" rows="4" cols="30"></textarea>
 </div>
 
